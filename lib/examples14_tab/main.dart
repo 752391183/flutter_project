@@ -37,15 +37,15 @@ class MyHomePage extends StatelessWidget{
 List<MyTab> _getMyTabs() {
   return [
     MyTab(
-      Tab(icon: Icon(Icons.directions_car)),
-      Icon(Icons.directions_car,color: Colors.pink,size: 60)
+        Tab(icon: Icon(Icons.directions_car)),
+        Icon(Icons.directions_car,color: Colors.pink,size: 60)
     ),
     MyTab(
         Tab(icon: Icon(Icons.directions_bike)),
         Icon(Icons.directions_bike,color: Colors.pink,size: 60)
     ),
     MyTab(Tab(icon: Icon(Icons.directions_bus)),
-            Icon(Icons.directions_bus,color: Colors.pink,size: 60)
+        Icon(Icons.directions_bus,color: Colors.pink,size: 60)
     )
   ];
 }
